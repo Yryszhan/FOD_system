@@ -4,6 +4,10 @@ import requests
 from PIL import Image
 
 CAM_URL = "http://172.25.200.167/capture"  # один ESP32-CAM
+# http://172.25.200.172/capture
+# http://172.25.200.174/capture
+# http://172.25.200.175/capture
+# http://172.25.200.167/capture
 TIMEOUT = 3  # seconds
 
 def fetch_jpeg(url: str) -> Image.Image:
