@@ -1,0 +1,30 @@
+{
+  "fod_detected": true,
+  "confidence": 0.7,
+  "findings": [
+    {
+      "item": "Cables",
+      "location": "bottom-right",
+      "risk": "low",
+      "why": "Cables are present and could pose a tripping hazard or snag on equipment."
+    },
+    {
+      "item": "Headphones",
+      "location": "top-right",
+      "risk": "low",
+      "why": "Headphones are present and could be a source of FOD if they break or are misplaced."
+    },
+    {
+      "item": "Loose items",
+      "location": "bottom-right",
+      "risk": "low",
+      "why": "There are some loose items on the surface that could be FOD."
+    }
+  ],
+  "recommended_actions": [
+    "Secure or remove cables to prevent tripping hazards.",
+    "Store headphones in a designated location when not in use.",
+    "Clean up loose items on the surface."
+  ],
+  "need_more_data": []
+}
