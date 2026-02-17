@@ -21,7 +21,7 @@ from google import genai
 from google.genai import types
 
 
-GEMINI_API_KEY = "API HERE"
+GEMINI_API_KEY = "API"
 
 
 MODEL = "gemini-2.0-flash-001"
@@ -225,7 +225,7 @@ def main():
             key = cv2.waitKey(1) & 0xFF
             if key in (ord('q'), ord('Q')):
                 break
-            
+
             if key in (ord('s'), ord('S'), 32):
                 if analyzing:
                     last_status = "Already analyzing... wait."
