@@ -1,13 +1,3 @@
-# main.py
-# 4x ESP32-CAM live grid + SNAPSHOT (2x2) + Gemini AI FOD analysis (spacecraft context)
-#
-# Install:
-#   pip install -U google-genai opencv-python numpy requests
-#
-# Controls:
-#   S or SPACE -> save collage + send to Gemini + save JSON
-#   Q         -> quit
-
 import os
 import time
 import json
