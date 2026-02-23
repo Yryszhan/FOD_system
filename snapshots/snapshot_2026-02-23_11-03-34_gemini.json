@@ -1,0 +1,24 @@
+{
+  "fod_detected": true,
+  "confidence": 0.7,
+  "findings": [
+    {
+      "item": "Water bottle",
+      "location": "top-left",
+      "risk": "high",
+      "why": "Unsealed liquid containers are a significant FOD risk in spacecraft integration environments due to potential spills and contamination."
+    },
+    {
+      "item": "Plastic bag",
+      "location": "top-right",
+      "risk": "med",
+      "why": "Plastic bags can generate static electricity and shed particles, posing a contamination risk to sensitive equipment."
+    }
+  ],
+  "recommended_actions": [
+    "Remove the water bottle from the integration area immediately.",
+    "Replace the plastic bag with approved cleanroom packaging.",
+    "Ensure all personnel are aware of FOD control procedures."
+  ],
+  "need_more_data": []
+}

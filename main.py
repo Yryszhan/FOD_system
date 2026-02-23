@@ -28,10 +28,10 @@ MODEL = "gemini-2.0-flash-001"
 
 
 CAM_URLS = [
-    "http://172.25.201.41/capture",
-    "http://172.25.201.40/capture",
-    "http://172.25.201.39/capture",
-    "http://172.25.201.38/capture",
+    "http://172.25.201.203/capture",
+    "http://172.25.201.204/capture",
+    "http://172.25.201.201/capture",
+    "http://172.25.201.200/capture",
 ]
 
 TIMEOUT = 3
